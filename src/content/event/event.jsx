@@ -34,7 +34,7 @@ constructor(props){
         return (
                 <div className="wrapperform">
                     <form onSubmit={this.onsubmitHandler}>
-                        <h1>Halo{this.state.name}</h1>
+                        <h1>Halo{this.state.nama}</h1>
                         <input type="text" onChange={this.onchangeHandler} name="nama" className="text"/>
                         <h1>Sebutkan Salah Satu Hobi Kamu{this.state.hobi}</h1>
                         <input type="text" onChange={this.onchangeHandler} name="hobi" className="text"/>
